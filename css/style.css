@@ -1,0 +1,127 @@
+/* Couleurs du site */
+/*
+Blanc : #ffffff;
+Noir : #000000;
+Gris clair : #f8f9fa;
+Gris : #999999;
+Gris foncé : #4a4a4b;
+Vert : #a2c0be;
+Vert foncé : #567876;
+Orange : #ff9900;
+*/
+
+.logo {
+    font-size: 2rem;
+}
+
+em {
+    color:orange;
+}
+
+h1 {
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: bold;
+}
+
+h3 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+body header div {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+body header nav ul {
+    display:flex;
+    flex-direction: row;
+    list-style: none; /* on supprime les puces */
+    gap: 20px; /* met un espace entre les éléments du menu nav */
+}
+
+/* applique un style sur les leins de nav header */
+header nav ul li a,
+header a {
+    text-decoration: none; /* supprime le soulignement */
+    color:#567876;
+}
+
+header section {
+    display:flex;
+    display:column;
+}
+
+body { 
+    font-family: 'Open sans', serif;
+    font-size: 16px; 
+    color: #4a4a4b;
+ /*   margin: 0; /* Suppression des marges intérieures sur le corps du document */
+ }
+
+body {
+    background-color: #ffffff;
+}
+
+#top {
+    background-color: #f8f9fa;
+    text-align:center;
+}
+
+#top {
+    display:flex;
+    justify-content: space-between;
+}
+
+#top div {
+    margin:auto;
+    display:block;
+}
+
+#welcome {
+    text-align:center;
+}
+
+#top img {
+    width: 300px;
+}
+table img {
+    box-shadow: 10px 10px  #a2c0be;
+    width: 400px;
+}
+table th,
+table td {
+    padding: 15px;
+}
+main table td:nth-child(1) {
+    text-align: right;
+}
+
+main table td:nth-child(2) {
+    text-align: left;
+}
+
+button {
+    border:none;
+    background-color:#a2c0be;
+    color: white;
+ /*   width:200px; */
+    padding:12px;
+    font-weight: bold;
+    border-radius: 16px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #4a4a4b;
+    text-align: center;
+    color: #ffffff;
+    height: 200px;
+}
