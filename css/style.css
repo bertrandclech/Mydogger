@@ -46,12 +46,12 @@ header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 35px;
     width: 60%;
-    margin: auto;
+ /*   margin: auto; */
  /*   padding-top: 20px;
     padding-bottom: 20px; */
     padding: 20px 0 20px 0;
+    margin:auto;
 }
 
 header nav ul {
@@ -72,8 +72,14 @@ header section {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    
+    width: 60%;
+    /*   margin: auto; */
+    /*   padding-top: 20px;
+       padding-bottom: 20px; */
+       padding: 0 0 0 0;
+       margin:auto;
  /*   padding: 35px; */
-    width: 80%;
 }
 
 body { 
@@ -99,16 +105,29 @@ header section div {
     margin: auto;
 }
 
+main section div {
+    width: 60%;
+    margin: auto;  
+}
+
 main section div img {
     box-shadow: 10px 10px  #a2c0be;
     width: 400px;
+}
+
+.LeftJustified {
+    text-align: left;
+}
+
+.RightJustified {
+    text-align: right;
 }
 
 .centered {
     text-align: center;
 }
 
-main a {
+main section div a {
     border:none;
     background-color:#a2c0be;
     color: white;
@@ -117,8 +136,8 @@ main a {
     font-weight: bold;
     border-radius: 16px;
     font-size: 1.2rem;
-    margin:auto;
-    display:block;
+ /*   margin:auto;
+    display:block; */
 }
 
 main section div {
@@ -137,13 +156,16 @@ main section div div {
     display:flex;
     flex-direction: column;
  /*   justify-content: space-between; */
-    padding: 35px;
     width: 60%;
 }
 
 footer {
+    display: flex;
     background-color: #4a4a4b;
     text-align: center;
     color: #ffffff;
     height: 200px;
+    margin:auto;
+    display:block;
+    vertical-align: middle;
 }
