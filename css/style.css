@@ -115,13 +115,19 @@ main section div img {
     width: 400px;
 }
 
+
+
 .LeftJustified {
     text-align: left;
+    padding: 0 20 0 0;
+    margin: auto;
 }
 
 .RightJustified {
     text-align: right;
-}
+    padding: 0 0 0 20;
+    margin:auto;
+}    
 
 .centered {
     text-align: center;
@@ -144,28 +150,32 @@ main section div {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 35px;
+ /*   padding: 35px; */
     width: 60%;
 }
 
 main section div img {
     height: 300px;
+ /*   width: 40%; */
 }
 
 main section div div {
     display:flex;
     flex-direction: column;
  /*   justify-content: space-between; */
-    width: 60%;
+    width: 40%;
+    margin: auto;
 }
 
 footer {
-    display: flex;
+ /*   display: inline-block;
+    vertical-align: middle; */
     background-color: #4a4a4b;
     text-align: center;
     color: #ffffff;
     height: 200px;
     margin:auto;
-    display:block;
-    vertical-align: middle;
+    width: 100%;
+ /*   display:block; */
+
 }
