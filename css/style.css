@@ -23,7 +23,8 @@ Orange : #ff9900;
 }
 
 h1 {
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 4rem;
     font-style: normal;
 }
 
@@ -69,7 +70,10 @@ header a {
 
 header section {
     display:flex;
-    display:column;
+    flex-direction: row;
+    justify-content: space-between;
+ /*   padding: 35px; */
+    width: 80%;
 }
 
 body { 
@@ -84,53 +88,57 @@ body {
     background-color: #ffffff;
 }
 
-#top {
-    background-color: #f8f9fa;
-    text-align:center;
-}
-
-#top {
-    display:flex;
-    justify-content: space-between;
-}
-
-#top div {
-    margin:auto;
-    display:block;
-}
-
-#welcome {
-    text-align:center;
-}
-
-#top img {
+header section img {
     width: 300px;
 }
-table img {
+
+header section div {
+    margin:auto;
+    display:block;
+    width: 60%;
+    margin: auto;
+}
+
+main section div img {
     box-shadow: 10px 10px  #a2c0be;
     width: 400px;
 }
-table th,
-table td {
-    padding: 15px;
-}
-main table td:nth-child(1) {
-    text-align: right;
+
+.centered {
+    text-align: center;
 }
 
-main table td:nth-child(2) {
-    text-align: left;
-}
-
-button {
+main a {
     border:none;
     background-color:#a2c0be;
     color: white;
- /*   width:200px; */
+    width:105px;
     padding:12px;
     font-weight: bold;
     border-radius: 16px;
     font-size: 1.2rem;
+    margin:auto;
+    display:block;
+}
+
+main section div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px;
+    width: 60%;
+}
+
+main section div img {
+    height: 300px;
+}
+
+main section div div {
+    display:flex;
+    flex-direction: column;
+ /*   justify-content: space-between; */
+    padding: 35px;
+    width: 60%;
 }
 
 footer {
