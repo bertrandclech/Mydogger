@@ -10,11 +10,15 @@ Vert foncé : #567876;
 Orange : #ff9900;
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
 .logo {
     font-size: 2rem;
+    text-decoration: none;
+    color: #999999;
 }
 
-em {
+.logo span {
     color:orange;
 }
 
@@ -33,14 +37,23 @@ h3 {
     font-style: normal;
 }
 
-body header div {
-    display:flex;
-    justify-content: space-between;
-    padding: 20px;
+header {
     background-color: #f8f9fa;
 }
 
-body header nav ul {
+#menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px;
+    width: 60%;
+    margin: auto;
+ /*   padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px 0 20px 0;
+}
+
+header nav ul {
     display:flex;
     flex-direction: row;
     list-style: none; /* on supprime les puces */
@@ -51,7 +64,7 @@ body header nav ul {
 header nav ul li a,
 header a {
     text-decoration: none; /* supprime le soulignement */
-    color:#567876;
+    color:#999999;
 }
 
 header section {
@@ -63,6 +76,7 @@ body {
     font-family: 'Open sans', serif;
     font-size: 16px; 
     color: #4a4a4b;
+    margin: 0;
  /*   margin: 0; /* Suppression des marges intérieures sur le corps du document */
  }
 
