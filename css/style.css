@@ -23,7 +23,7 @@ Orange : #ff9900;
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 4rem;
     font-style: normal;
 }
@@ -72,7 +72,7 @@ header section {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    align-items: center;
     width: 60%;
     /*   margin: auto; */
     /*   padding-top: 20px;
@@ -94,17 +94,26 @@ body {
     background-color: #ffffff;
 }
 
-header section img {
-    width: 300px;
+.headerTitle h1 {
+    margin:0;
+}
+.headerTitle p {
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: lighter;
 }
 
+header section img {
+    width: 35%;
+}
+/*
 header section div {
     margin:auto;
     display:block;
     width: 60%;
     margin: auto;
 }
-
+*/
 main section div {
     width: 60%;
     margin: auto;  
@@ -119,13 +128,13 @@ main section div img {
 
 .LeftJustified {
     text-align: left;
-    padding: 0 20 0 0;
+    padding: 0 0 0 0;
     margin: auto;
 }
 
 .RightJustified {
     text-align: right;
-    padding: 0 0 0 20;
+    padding: 0 0 0 0;
     margin:auto;
 }    
 
