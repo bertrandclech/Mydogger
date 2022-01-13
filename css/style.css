@@ -122,110 +122,74 @@ header section div {
 }
 */
 
-main section .mainWelcome h2 {
-    font-weight: 700;
-    font-style: bold;
-    font-size: 2.5rem;
-    margin-top: 400px;
-}
-
-main section div {
-    width: 60%;
-    margin: auto;  
-    padding: 40px 0 0 0;
-}
-
-main section div img {
-    box-shadow: 10px 10px  #a2c0be;
-    width: 400px;
-}
-
-main section div h3 {
-    font-weight: 300;
-    font-style: normal;
-    font-size: 2.5rem;
-    color: black;
-}
-
-.cardLeftJustified {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 40px 0 0 120px;
-    margin: auto;
-}
-
-.cardRightJustified {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    text-align: right;
-    padding: 40px 120px 0 0;
-    margin:auto;
-}    
-
 .mainWelcome {
     text-align: center;
-}
-
-.mainWelcome p {
-    margin: 0;
+    width: 30%;
+    margin: 60px auto;
 }
 
 .mainWelcome h2 {
     font-weight: 700;
     font-style: bold;
-    font-size: 2.5rem;
-    margin:0 40 0 0;
-
+    font-size: 2rem;
 }
 
+.mainWelcome p {
+    color: #999999;
+    font-weight: 300;
+    margin:0;
+}
 
-main section div a {
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    width: 60%;
+    text-align: right;
+    margin: auto auto 60px auto;
+}
+
+.card:nth-child(even){
+    text-align: left;
+}
+
+.card .cardContent h3 {
+    margin: 0;
+    font-size:2rem;
+    font-weight: 300;
+}
+
+.card .cardContent p {
+    margin: 20px 0 40px 0;
+    color: #999999;
+}
+
+.card .cardContent a {
     border:none;
     background-color:#a2c0be;
     text-decoration: none; /* supprime le soulignement */
     color: white;
     width:100px;
-    padding:12px;
+    padding:12px 32px;
     font-weight: bold;
-    border-radius: 16px;
+    border-radius: 50px;
     font-size: 1rem;
- /*   margin:auto;
-    display:block; */
 }
 
-main section div {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
- /*   padding: 35px; */
-    width: 60%;
-}
-
-main section div img {
-    height: 300px;
+.picture {
+    width: 50%;
+    box-shadow: 10px 10px  #a2c0be;
  /*   padding: 40px 0 0 0; */
  /*   width: 40%; */
 }
 
-main section div div {
-    display:flex;
-    flex-direction: column;
- /*   justify-content: space-between; */
-    width: 40%;
-    margin: auto;
-}
-
 footer {
- /*   display: inline-block;
-    vertical-align: middle; */
     background-color: #4a4a4b;
     text-align: center;
     color: #ffffff;
-    height: 200px;
-    margin:auto;
-    width: 100%;
+    font-size: 0.8rem;
+    padding: 50px 0;
  /*   display:block; */
 
 }
